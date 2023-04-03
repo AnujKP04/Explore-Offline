@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "329734440017",
+    "project_id": "explore-offline5",
+    "storage_bucket": "explore-offline5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329734440017:android:40b7a54c170fe579d36470",
+        "android_client_info": {
+          "package_name": "com.example.exploreoffline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329734440017-a4jgnvujfbij9p72brg9v9jei6v01563.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exploreoffline",
+            "certificate_hash": "96f560a2d9aed5976a24d9f1faa074a07d35bea0"
+          }
+        },
+        {
+          "client_id": "329734440017-q9ognvkf7okemb4u2mn9hrppfdgpndac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFGL2CO8FEFmH0xHdPXHc1fqbHOlBVB1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329734440017-q9ognvkf7okemb4u2mn9hrppfdgpndac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
