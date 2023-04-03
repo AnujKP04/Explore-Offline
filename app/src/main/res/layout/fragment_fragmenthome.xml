@@ -6,9 +6,10 @@
     tools:context=".ui.home.fragmenthome">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/home" />
+        tools:listitem="@layout/temprecycler"
+        android:layout_height="match_parent" />
 
 </FrameLayout>

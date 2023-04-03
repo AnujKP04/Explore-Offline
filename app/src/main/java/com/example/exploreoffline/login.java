@@ -29,7 +29,7 @@ public class login extends AppCompatActivity {
 
 
     TextView registerwithus;
-    Button btnlogin;
+    Button btnlogin,gstlogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +40,13 @@ public class login extends AppCompatActivity {
         registerwithus=findViewById(R.id.registerwithus);
         btnlogin=findViewById(R.id.btnlogin);
 
+        gstlogin = findViewById(R.id.gstlogin);
+        gstlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),homepage.class));
+            }
+        });
         registerwithus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,7 +65,7 @@ public class login extends AppCompatActivity {
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(),homepage.class);
                 startActivity(intent);
             }
         });
@@ -81,7 +88,7 @@ public class login extends AppCompatActivity {
                                     @Override
                                     public void onSuccess(AuthResult authResult) {
                                         Toast.makeText(login.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                                        startActivity(new Intent(login.this, MainActivity.class));
+                                        startActivity(new Intent(login.this, homepage.class));
                                         finish();
 
                                     }
